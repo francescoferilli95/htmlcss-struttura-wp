@@ -26,3 +26,64 @@
     background: yellow;
 }
 
+/* Header Section 2 */
+
+.titolo2 {
+    padding: 15px;
+    vertical-align: middle;
+    
+}
+
+/* Content Section 2 */
+
+section .titolo2,
+section .sidebar,
+section .content,
+section .widgets {
+    background: lightblue;
+}
+
+section .sidebar,
+section .widgets {
+    width: 24%;
+    height: 300px;
+}
+.sidebar {
+    padding: 15px;
+    margin-right: 1%;
+}
+
+.content {
+    padding: 15px;
+    width: 50%;
+    height: 300px;
+}
+
+.widgets {
+    padding: 15px;
+    margin-left: 1%;
+}
+
+
+
+.container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.container .clearfix {
+    float: left;
+}
+
+.container {
+    margin: 15px 0;   
+}
+
+section {
+    background: blue;
+    
+}
+
+
