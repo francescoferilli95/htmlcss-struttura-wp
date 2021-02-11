@@ -1,0 +1,18 @@
+
+/* General */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header Sito */
+
+.titolo {
+    padding: 15px;
+    margin: 0 auto;
+    height: 70px;
+    vertical-align: middle;
+    background: purple;
+}
